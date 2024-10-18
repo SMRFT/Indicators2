@@ -1,0 +1,84 @@
+/* Formuls.css */
+
+.container1 {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 700px; /* Adjust as needed for the desired form width */
+    text-align: center;
+  }
+  
+  
+  .picker-container1 {
+    margin-bottom: 10px;
+    margin-right: 130px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .date-picker-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Add some space between the date picker and the button */
+  }
+  
+  
+  .date-picker1 {
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .fetch-button1,
+  .csv-button1 {
+    background-color: #f49e9e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+    width: 130px; /* Match the width of the form input fields */
+  }
+  
+  .fetch-button1:hover {
+    background-color: #f49e9e;
+  }
+  
+  .csv-button1 {
+    background-color: #28a745;
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    padding: 10px 20px; /* Ensure consistent padding */
+  }
+  
+  .csv-button1:hover {
+    background-color: #218838;
+  }
+  
+  .data-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .data-table1 th,
+  .data-table1 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .data-table1 th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  
+  
+  

@@ -1,0 +1,63 @@
+body {
+  font-family:inherit;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  margin-top: 2%;
+  font-size:large;
+}
+
+.top-container {
+  width: 100%;
+  height: 30px;
+  background-color: #95BCB0;
+  position: fixed; /* Make it fixed position */
+  top: 0; /* Stick it to the top */
+  z-index: 999; /* Ensure it stays above other elements */
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  position: fixed; /* Make it fixed position */
+  top: 30px; /* Position below the top container */
+  z-index: 999; /* Ensure it stays above other elements */
+}
+
+.logo {
+  max-width: 15%; /* Default size */
+}
+
+h2 {
+  /* font-family:"Brush Script MT", cursive; */
+  /* font-family: Copperplate, Papyrus, fantasy; */
+  /* font-family: Garamond, serif; */
+  font-family: "Tangerine", cursive;
+  /* font-family: Comic Sans MS; */
+}
+
+button {
+  background-color: #EBB099;
+  border: rgb(232, 237, 223);
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.RawData{
+  margin-left: 16%;
+}
+
+.main-content {
+  margin-left: 220px; /* This should match the width of your sidebar */
+  padding: 20px; /* Optional: Add some padding for better spacing */
+}
+
+/* Adjust the form container to center the form relative to the main content */
+.NumericalData {
+  justify-content: center;
+  width: 1000px;
+}

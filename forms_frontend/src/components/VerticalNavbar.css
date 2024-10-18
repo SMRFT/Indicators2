@@ -1,0 +1,76 @@
+.sidebar-container {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  height: 100vh;
+  width: 220px; /* Adjust the width of the sidebar as needed */
+  z-index: 1000; /* Ensure the sidebar is above other content */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+}
+
+.sidebar-content {
+  padding-top: 10px; /* Adjust the top padding to accommodate the header */
+}
+
+.sidebar-content .sidebar-menu-item {
+  font-size: 16px; /* Set the default font size */
+}
+
+.sidebar-content .sidebar-menu-item:hover {
+  color: rgb(105, 105, 105); /* Change text color to gray on hover */
+  font-weight: bold; /* Make text bold on hover */
+  font-size: 18px; /* Increase font size on hover */
+}
+
+.logo{
+  max-width: 50px;
+}
+
+.sidebar-dropdown {
+  cursor: pointer;
+}
+
+.sidebar-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+
+/* Styles for tablets (screens between 576px and 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .sidebar-container {
+    width: 180px; /* Adjust the width as needed for tablets */
+  }
+}
+
+/* Styles for mobile devices (screens smaller than 576px) */
+@media screen and (max-width: 575px) {
+  .sidebar-container {
+    width: 150px; /* Adjust the width as needed for mobile */
+  }
+
+  .sidebar-content .sidebar-menu-item {
+    font-size: 14px; /* Adjust the font size for mobile */
+  }
+
+  .sidebar-content .sidebar-menu-item:hover {
+    font-size: 16px; /* Adjust the hover font size for mobile */
+  }
+
+  .logo {
+    max-width: 40px; /* Adjust logo size for mobile */
+  }
+}
+
+/* Additional adjustments for larger screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .sidebar-container {
+    width: 220px; /* Adjust the width as needed for larger screens */
+  }
+
+  .logo {
+    max-width: 60px; /* Adjust logo size for larger screens */
+  }
+}

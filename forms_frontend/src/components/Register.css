@@ -1,0 +1,17 @@
+.Registration{
+    position: fixed;
+    top: 13%;
+    width: 65%;
+    margin-left: 350px;
+    height: 80%; /* Set height to 100% for full-screen desktop view */
+    background-image: url('../images/Background-container-image.png');
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    scrollbar-width: thin;
+}
